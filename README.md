@@ -1,7 +1,8 @@
 ExMerge.py is PST extractor tool for the Microsoft ExMerge utility. Greatly simplifies automated extrating PST's from Exchange servers for migration or backup purposes. Althouth, it is constrained to 2GB PST files due to ExMerge.exe limitation, this tool will automatically fine tune the extractions to ensure that this size limit is not a hard failure.
 
-    # Extract all emails for users defined in configuration file for date range 01/2000 thru 02/2001 in 3 month blocks and encrypt with foobar
-    % python .\ExMerge.py -y 2000 -m 1 -Y 2001 -M 2 -i 3 -e foobar
+    # Extract all emails for users defined in configuration file for date range
+    # 1/2000 thru 12/2010 in 6 month blocks and encrypt each PST with password foobar
+    % python .\ExMerge.py -y 2000 -m 1 -Y 2010 -M 12 -i 6 -e foobar
 
 
 # Features
