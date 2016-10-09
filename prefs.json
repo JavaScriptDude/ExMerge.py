@@ -1,0 +1,8 @@
+{   
+    "dir_output": "G:/PST_extract",
+    "temp_dir": "D:/pst_ext_temp",
+    "dir_input": "<path_where_ExMerge.py_is_deployed>",
+    "file_exm_exe": "<full_path_to_ExMerge.exe>",
+    "ldap_base": "/O=MYCO/OU=FIRST ADMINISTRATIVE GROUP/CN=RECIPIENTS/CN=",
+    "exch_server": "MYCOEXCH"
+}
